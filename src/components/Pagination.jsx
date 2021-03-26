@@ -10,11 +10,9 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-
-
 export default function BasicPagination(props) {
   const classes = useStyles();
-  const [page,setPage]=React.useState(1);
+  const [page, setPage] = React.useState(1);
   const handleChange = (event, value) => {
     setPage(value);
     props.pageChange(value);

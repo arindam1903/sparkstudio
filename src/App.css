@@ -1,28 +1,30 @@
-#screen{
-    height: 100vh;
-    width: 100vw;
-
+* {
+  box-sizing: border-box;
+}
+#screen {
+  height: 100vh;
+  width: 100vw;
 }
 
-header{
-    height: 7%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+header {
+  height: 7%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-#nav{
-    height: 8%;
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+#nav {
+  height: 8%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
-.nav-items{
-    margin: 10px;
+.nav-items {
+  margin: 10px;
 }
-#container{
-    height: 85%;
-    width: 100%;
+#container {
+  height: 85%;
+  width: 100%;
 }
