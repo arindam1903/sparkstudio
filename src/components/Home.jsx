@@ -31,7 +31,7 @@ export default function Home(props) {
       </div>
       <div id='description-container'>
          <b>Description : </b>  {description}</div>
-      <div id='date-container'>{date}</div>
+      <div id='date-container'><b>Date : </b>{date}</div>
     </div>
   );
 }
