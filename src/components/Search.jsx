@@ -19,11 +19,13 @@ export default function Search({ query }) {
   const show = data.slice(currentPage * 3 - 3, currentPage * 3);
   return (
     <div id="search-result">
+      <h3>Search result for {query}</h3>
       {show.map((el) => (
+        
         <div id="search-item">
           <div id="search-pic">
             {" "}
-            <img className="search-img" src={el.links[0].href} />
+            <img className="search-img" src={el.links[0].href} alt={el.data[0].title} />
           </div>
           <div id="search-description">
             {" "}

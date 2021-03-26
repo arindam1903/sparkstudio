@@ -24,7 +24,7 @@ export default function Home(props) {
       </div>
 
       <div id="image-container">
-        <img src={image} id="image" />
+        <img src={image} id="image" alt={title} />
       </div>
       <div id="description-container">
         <b>Description : </b> {description}
