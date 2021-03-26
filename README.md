@@ -1,6 +1,6 @@
 Hello, I'm Arindam. 
 
-To run this React app, you have to follow following steps.
+To run this React app, you have to follow the following steps.
 
 STEP 1: Clone this repo in your system.
 
