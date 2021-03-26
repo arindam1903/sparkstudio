@@ -7,8 +7,8 @@ import "./App.css";
 
 function App() {
   //Enter your key
-  const passkey = "wd1pwb5i97xsD3FW7gmA0Z4cnvCuq5AKPF7obrua";
-  
+  const passkey = //"paste your key here and uncomment this line";
+
   const [query, setQuery] = React.useState("");
   const [searchItem, setSearchItem] = React.useState("");
   const handleChange = (e) => {
